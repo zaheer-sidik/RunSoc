@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RunSocial Harrow - Running Community</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <!-- Hero Section with Logo and Welcome -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-layout">
+                <div class="logo">
+                    <img src="logo.png" alt="RunSocial Harrow Logo">
+                </div>
+                <div class="hero-content">
+                    <h1>RunSocial Harrow</h1>
+                    <p>Join our friendly running community!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Section with About Us and Instagram Side by Side -->
+    <section id="about" class="main-content">
+        <div class="container">
+            <div class="content-grid">
+                <!-- Left Side: About Us -->
+                <div class="about-section">
+                    <h2 class="section-title">Who We Are</h2>
+                    <div class="about-text">
+                        <p>RunSocial Harrow is a friendly and inclusive running community based in Harrow, London. We welcome runners of all abilities, from complete beginners to experienced marathoners.</p>
+                        
+                        <p>Our mission is to make running fun, social, and accessible to everyone in our community. Whether you're looking to improve your fitness, meet new people, or train for a specific goal, we're here to support you every step of the way.</p>
+                        <p>Join us for our weekly session on <strong>Wednesday at 6pm outside Canons Park Station</strong>, Whitchurch Ln, Edgware HA8 6RN.</p>
+                        <div class="about-features">
+                            <div class="feature">
+                                <i class="fas fa-users"></i>
+                                <h4>Inclusive Community</h4>
+                                <p>All abilities welcome</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-heart"></i>
+                                <h4>Social & Fun</h4>
+                                <p>Make new friends</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-running"></i>
+                                <h4>Regular Sessions</h4>
+                                <p>Wednesday 6pm</p>
+                                <p style="font-size: 0.85rem;">Outside Canons Park Station<br>Whitchurch Ln, Edgware HA8 6RN</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right Side: Instagram Carousel -->
+                <div class="carousel-section">
+                    <h2 class="section-title">Latest from Our Community</h2>
+                    <p class="section-subtitle" style="color: #cccccc;">Follow us on <a href="https://www.instagram.com/runsocharrow/" target="_blank" style="color: var(--primary-color); text-decoration: underline;">@runsocharrow</a></p>
+                    
+                    <div class="carousel-container">
+                        <button class="carousel-btn prev" aria-label="Previous slide">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        
+                        <!-- Carousel slides will be dynamically generated from codes.txt -->
+                        <div class="carousel">
+                            <!-- Slides populated by carousel-loader.js -->
+                        </div>
+                        
+                        <button class="carousel-btn next" aria-label="Next slide">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                    
+                    <!-- Dots will be dynamically generated -->
+                    <div class="carousel-dots">
+                        <!-- Dots populated by carousel-loader.js -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <a href="tel:+447827668623" class="footer-contact">
+                        <i class="fas fa-phone"></i>
+                        <span>+44 7827 668623</span>
+                    </a>
+                </div>
+                
+                <div class="footer-section">
+                    <a href="mailto:info@runsocialharrow.com" class="footer-contact">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@runsocialharrow.com</span>
+                    </a>
+                </div>
+                
+                <div class="footer-section">
+                    <a href="https://www.instagram.com/runsocharrow/" target="_blank" class="footer-contact">
+                        <i class="fab fa-instagram"></i>
+                        <span>@runsocharrow</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 RunSocial Harrow. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Dynamic carousel that loads from codes.txt -->
+    <script src="carousel-loader.js"></script>
+</body>
+</html>
